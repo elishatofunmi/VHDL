@@ -1,0 +1,25 @@
+{C:/Users/ACER/Desktop/VHDL CODES/s_r_nor_latch.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/ACER/Desktop/VHDL CODES/s_r_nor_latch.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/ACER/Desktop/VHDL CODES/s_r_nor_latch.vhd(2): (vcom-1491) Empty source files.
+
+
+} {} {}} {C:/Users/ACER/Desktop/VHDL CODES/s_r_flip_Flop.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/ACER/Desktop/VHDL CODES/s_r_flip_Flop.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/ACER/Desktop/VHDL CODES/s_r_flip_Flop.vhd(2): (vcom-1491) Empty source files.
+
+
+} {} {}} {C:/Users/ACER/Desktop/VHDL CODES/J_k_flip_flop.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/ACER/Desktop/VHDL CODES/J_k_flip_flop.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/ACER/Desktop/VHDL CODES/J_k_flip_flop.vhd(2): (vcom-1491) Empty source files.
+
+
+} {} {}} {C:/Users/ACER/Desktop/VHDL CODES/s_r_nand_latch.vhd} {0 {vcom -work work -2002 -explicit -stats=none {C:/Users/ACER/Desktop/VHDL CODES/s_r_nand_latch.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+** Error (suppressible): C:/Users/ACER/Desktop/VHDL CODES/s_r_nand_latch.vhd(2): (vcom-1491) Empty source files.
+
+
+} {} {}}

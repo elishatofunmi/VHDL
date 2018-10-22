@@ -1,0 +1,92 @@
+--And, Nand, Nor, or, xor, xnor 
+
+-- Entity And
+Entity And_function is
+port (a,b: in: bit;-- port declaration, input and output bit
+		c: out: bit);
+end entity And_function; -- end entity call
+
+--Architecture of the And gate
+Architecture And_func of And_function is
+begin
+	c <= a and b;
+End Architecture And_func;
+
+--entity declaration of a 3 input and gate
+Entity three_input_and is
+port (a,b,c: in: bit;
+		d: out: bit);
+end entity three_input_and;
+
+--Architecture of a 3_input and gate
+Architecture three_input_and_arch of three_input_and is
+begin
+	d <= a and b and c;
+	end;
+end Architecture three_input_and_arch of three_input_and;
+
+-- Entity Nand
+Entity Nand_function is
+port (a, b: in: bit;
+		c: out: bit);
+end entity Nand_function;
+
+-- Architecture of the Nand gate
+Architecture Nand_func of Nand_function is
+begin
+	c <= a Nand b;
+end Architecture Nand_func;
+
+--Entity of a three_input_nand gate
+Entity three_input_nand is
+port (a,b,c: in: bit;
+		d: out: bit);
+end entity three_input_nand;
+
+-- Architecture of a three input nand gate
+Architecture three_input_nand_gate of three_input_nand is
+begin
+	d <= a nand b nand c;
+	end;
+end architecture three_input_nand_gate;
+
+-- Entity or gate
+Entity or_function is
+port (a, b: in: bit;
+		c: out : bit);
+end entity or_function;
+
+--Architecture of the or gate
+Architecture or_func of or_function is
+begin
+	c <= a or b;
+end
+end Architecture or_func;
+
+-- Entity Xor Gate
+Entity xor_function is
+port (a,b: in: bit;
+		c: out: bit);
+end entity xor_function;
+
+--Architecture of the xor gate
+Architecture xor_gate of xor_function is
+begin
+	c <= a xor b;
+	end;
+end architecture xor_gate;
+
+--Entity xnor gate
+Entity xnor_function is
+port (a,b: in: bit;
+		c: out: bit);
+end xnor_function;
+
+-- Architecture xnor_gate
+Architecture xnor_func of xnor_function is
+begin
+	c <= a xnor b;
+	end;
+end architecture xnor_func of xnor_function;
+
+
